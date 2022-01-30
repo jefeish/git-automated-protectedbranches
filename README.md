@@ -1,13 +1,13 @@
 # git-automated-protectedbranches
 Please create a simple web service that listens for organization events to know when a repository has been created. When the repository is created please automate the protection of the main branch. Notify yourself with an @mention in an issue within the repository that outlines the protections that were added.
 
-##Pre-requisite
+## Pre-requisite
 - Python (In this example python3 is used)
 - Flask
 - ngrok
 - All the dependencies mentioned in requirements.txt
 
-##Steps to run webservice
+## Steps to run webservice
 - Install all the pre-requisites
 - Set GitHub token (GH_TOKEN). Extract your personal token from GitHub and add it as your environment variable. Use the following command to add it as an environment variable :
 **export GH_TOKEN = (your personal token)**
