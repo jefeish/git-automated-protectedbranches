@@ -13,7 +13,7 @@ Please create a simple web service that listens for organization events to know 
 **export GH_TOKEN = (your personal token)**
 - Set your username in app.py
 - Start the local web service using 'flask run --host=0.0.0.0 &'
-- Start the forwarding service using 'ngrok http https://localhost:5000'
+- Start the forwarding service using 'ngrok http https://localhost:5000'. You can use the exact URL too.
 - Note the forwarding address from ngrok (in this case hhttp://b99e-2607-fea8-4e0-2f00-e9ef-e0aa-ad26-bfed.ngrok.io)
 
 ![](../../../Desktop/Screen Shot 2022-01-30 at 1.19.43 PM.png)![]
@@ -25,6 +25,17 @@ Please create a simple web service that listens for organization events to know 
 - Select 'Repositories' and events to trigger.
 - Save the webhook.
 
-#Test
+# Test
 - Create a new repo
 - Check if the branch is auto protected and you are notified about the issue.
+
+**Bugs and issues -**
+-ngrok forwarding URL isn't working.
+
+**References**
+https://ngrok.com/docs
+https://docs.github.com/en/developers/webhooks-and-events/webhooks/about-webhooks
+https://github.com/jimzucker/github-webhooks
+https://github.com/zkoppert/Auto-branch-protect
+https://docs.github.com/en/rest
+
