@@ -10,7 +10,7 @@ Please create a simple web service that listens for organization events to know 
 ## Steps to run webservice
 - Install all the pre-requisites. ***`Instructions ?`***
 - Set GitHub token (GH_TOKEN). Extract your personal token from GitHub and add it as your environment variable. Use the following command to add it as an environment variable :
-**export GH_TOKEN = (your personal token)**
+**export GH_TOKEN = (your personal token)** ***`Instructions ?`*** ***`What PAT permissions ?`***
 - Set your username in app.py ***`Hardcoded`***
 - Start the local web service using 'flask run --host=0.0.0.0 &'
 - Start the forwarding service using 'ngrok http https://localhost:5000'. You can use the exact URL too.
