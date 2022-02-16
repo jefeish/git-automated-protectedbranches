@@ -25,6 +25,8 @@ Please create a simple web service that listens for organization events to know 
 - Select 'Repositories' and events to trigger.
 - Save the webhook.
 
+***No Secret Handling ?!***
+
 # Test
 - Create a new repo
 - Check if the branch is auto protected and you are notified about the issue.
