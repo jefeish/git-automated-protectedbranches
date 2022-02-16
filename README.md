@@ -8,18 +8,18 @@ Please create a simple web service that listens for organization events to know 
 - All the dependencies mentioned in requirements.txt
 
 ## Steps to run webservice
-- Install all the pre-requisites
+- Install all the pre-requisites. ***`Instructions ?`***
 - Set GitHub token (GH_TOKEN). Extract your personal token from GitHub and add it as your environment variable. Use the following command to add it as an environment variable :
 **export GH_TOKEN = (your personal token)**
-- Set your username in app.py
+- Set your username in app.py ***`Hardcoding`***
 - Start the local web service using 'flask run --host=0.0.0.0 &'
 - Start the forwarding service using 'ngrok http https://localhost:5000'. You can use the exact URL too.
 - Note the forwarding address from ngrok (in this case hhttp://b99e-2607-fea8-4e0-2f00-e9ef-e0aa-ad26-bfed.ngrok.io)
 
-![](../../../Desktop/Screen Shot 2022-01-30 at 1.19.43 PM.png)![]
-- (../../../Desktop/Screen Shot 2022-01-30 at 1.19.19 PM.png)
-
-- Add webhook to GitHub organization and add the payload URL.
+![](../../../Desktop/Screen Shot 2022-01-30 at 1.19.43 PM.png)![] ***`Broken link`***
+- (../../../Desktop/Screen Shot 2022-01-30 at 1.19.19 PM.png) ***`Broken link`***
+- 
+- Add webhook to GitHub organization and add the payload URL. ***`Instructions ?`***
 - Payload URL = Forwarding address from ngrok
 - Select Content type as application/json
 - Select 'Repositories' and events to trigger.
